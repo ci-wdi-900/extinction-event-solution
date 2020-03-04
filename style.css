@@ -1,0 +1,26 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 900px;
+}
+
+#row {
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  width: 162px;
+  transition: 2s width;
+}
+
+ul li {
+  transition: 2s opacity;
+}
+
+button {
+  margin-top: 30px;
+}
