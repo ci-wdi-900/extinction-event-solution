@@ -29,7 +29,7 @@ for (const picture of pictures) {
 }
 
 
-const meteor = document.querySelector('#toggle');
+const meteor = document.querySelector('#destroy-all');
 
 const destroyEverything = function() {
   for (const listItem of firstListItems) {
