@@ -1,3 +1,5 @@
+// First List
+
 const firstListItems = document.querySelectorAll('ol li');
 
 const addStrikethrough = function(event) {
@@ -7,6 +9,9 @@ const addStrikethrough = function(event) {
 for (const listItem of firstListItems) {
   listItem.addEventListener('click', addStrikethrough);
 }
+
+
+// Second List
 
 const secondListItems = document.querySelectorAll('ul li');
 
@@ -18,6 +23,9 @@ for (const listItem of secondListItems) {
   listItem.addEventListener('click', fade);
 }
 
+
+// Pictures
+
 const pictures = document.querySelectorAll('#row img');
 
 const collapse = function(event) {
@@ -28,6 +36,8 @@ for (const picture of pictures) {
   picture.addEventListener('click', collapse);
 }
 
+
+// Everything All At Once
 
 const meteor = document.querySelector('#destroy-all');
 
