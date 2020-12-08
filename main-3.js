@@ -15,7 +15,7 @@ for (const listItem of document.querySelectorAll('ol li')) {
 
 for (const listItem of document.querySelectorAll('ul li')) {
   listItem.addEventListener('click', (event) => {
-    fade(listItem);
+    fade(event.target);
   });
 }
 

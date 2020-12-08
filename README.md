@@ -1,3 +1,3 @@
-# Extinction Event
+# Extinction Event - Solution
 
-Check out the [extinction event site](http://extinction-event.surge.sh/) to see your goal!
+A few possible sets of solutions to the [Exctinction Event](https://github.com/ci-wdi-900/extinction-event) challenge. Check out `main-2.js` and `main-3.js` for some alternative versions!

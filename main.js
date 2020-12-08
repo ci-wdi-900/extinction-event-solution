@@ -1,5 +1,4 @@
 // First List
-
 const firstListItems = document.querySelectorAll('ol li');
 
 const addStrikethrough = function(event) {
@@ -12,7 +11,6 @@ for (const listItem of firstListItems) {
 
 
 // Second List
-
 const secondListItems = document.querySelectorAll('ul li');
 
 const fade = function(event) {
@@ -25,7 +23,6 @@ for (const listItem of secondListItems) {
 
 
 // Pictures
-
 const pictures = document.querySelectorAll('#row img');
 
 const collapse = function(event) {
@@ -38,7 +35,6 @@ for (const picture of pictures) {
 
 
 // Everything All At Once
-
 const meteor = document.querySelector('#destroy-all');
 
 const destroyEverything = function() {
